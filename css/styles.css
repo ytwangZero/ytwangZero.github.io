@@ -10985,9 +10985,25 @@ section.resume-section .resume-section-content {
 }
 
 .pub-first {
-  border-left-color: #fd7e14;
-  background: linear-gradient(135deg, #f8f9ff, #ffffff);
+  border-left-color: #e07a2f; /* 更柔和的橙 */
+  background: #fafafa;
 }
+
+.pub-meta .badge-role {
+  background-color: #e07a2f;
+  color: #fff;
+}
+
+.pub-meta .badge-journal {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.pub-meta .badge-year {
+  background-color: #f1f3f5;
+  color: #333;
+}
+
 
 .pub-title {
   font-weight: 700;
