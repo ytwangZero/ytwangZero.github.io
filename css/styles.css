@@ -10970,3 +10970,45 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+
+/* ===== Publications ===== */
+.pub-card {
+  border-left: 4px solid #dee2e6;
+  transition: all 0.3s ease;
+  background: #ffffff;
+}
+
+.pub-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+.pub-first {
+  border-left-color: #0d6efd;
+  background: linear-gradient(135deg, #f8f9ff, #ffffff);
+}
+
+.pub-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.pub-authors {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.pub-meta {
+  margin-top: 0.5rem;
+}
+
+.pub-meta .badge {
+  margin-right: 0.4rem;
+}
+
+.pub-links a {
+  margin-right: 0.8rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
