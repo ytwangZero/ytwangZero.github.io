@@ -11052,9 +11052,10 @@ section.resume-section .resume-section-content {
 
 .interest-gallery__item img {
   display: block;
-  height: 150px;
+  max-height: 150px;
+  height: auto;
   width: auto;
-  max-width: min(100%, 240px);
+  max-width: 100%;
   border-radius: 1rem;
   box-shadow: 0 0.65rem 1.5rem rgba(0, 0, 0, 0.12);
   transition: inherit;
@@ -11185,7 +11186,7 @@ body.lightbox-open {
   }
 
   .interest-gallery__item img {
-    height: 120px;
+    max-height: 120px;
   }
 
   .interest-gallery__item:hover,
