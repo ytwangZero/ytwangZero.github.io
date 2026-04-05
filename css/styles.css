@@ -10927,17 +10927,28 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
+  padding: 0;
+  border: 0;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  cursor: pointer;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+.social-icons .social-icon:hover,
+.social-icons .social-icon:focus-visible {
   background-color: #bd5d38;
+}
+.social-icons .social-icon:focus-visible {
+  outline: 3px solid rgba(189, 93, 56, 0.3);
+  outline-offset: 0.2rem;
+}
+.social-icons .social-icon .social-icon__preview {
+  display: none;
 }
 
 .dev-icons {
